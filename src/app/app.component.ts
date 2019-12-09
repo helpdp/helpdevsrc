@@ -1,7 +1,5 @@
 import { Component,  ViewContainerRef } from '@angular/core';
-import {
-  MCUIService
-} from 'mc-ui-angular';
+import { MCUIService } from 'mc-ui-angular';
 
 @Component({
   selector: 'app-root',

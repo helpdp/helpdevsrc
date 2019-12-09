@@ -8,15 +8,14 @@ import {
 import {
   HomeComponent,
 } from '.';
-import { EngComponent } from './eng/eng.component';
 
 const homeRoutes: Routes = [{
   path: 'home',
   component: HomeComponent,
   children: [
     {
-      path: 'eng',
-      component: EngComponent
+      path: 'example',
+      loadChildren: './example/example.module#ExampleModule'
     }
   ]
 }];

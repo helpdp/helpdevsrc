@@ -1,4 +1,3 @@
 export * from './home.component';
 export * from './home.service';
-export * from './home-left-menu/home-left-menu.component';
-export * from './eng/eng.component';
+export * from './home-header/home-header.component';

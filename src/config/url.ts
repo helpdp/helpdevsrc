@@ -1,13 +1,14 @@
+import { MCUIService } from 'mc-ui-angular';
 import {
-  MCUIService
-} from 'mc-ui-angular';
+  user_mock
+} from 'src/test/api/user_mock';
 
 const URLS = {
   user: 'api/user/',
 };
 
 const MOCK_URLS = {
-  user: ''
+  user: user_mock
 };
 
 export class Url {

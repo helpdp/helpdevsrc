@@ -1,0 +1,13 @@
+<div class="example--item">
+  <div class="example--item--header">
+    <h6>개발자매일영어 mp3</h6>
+    <a href="https://play.google.com/music/playlist/AMaBXyn_X1BLS5v9qdLCHYM6etKXSyZ1dmf0wJYwz-TO7dq79R52hOTs76o70b9OEzpmPRyKwmLE3ohVVdK8HmMH3KkT8ByumQ%3D%3D" target="_new">Google Music Playlist Link</a>
+  </div>
+  <div class="example--item--body" [style.height.px]="300">
+    <mc-list [data]="data" [itemTpl]="itemTpl">
+      <ng-template #itemTpl let-data>
+        <a [href]="data.id" target="_new">{{data.name}} - {{data.date}}</a>
+      </ng-template>
+    </mc-list>
+  </div>
+</div>
