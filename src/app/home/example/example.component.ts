@@ -1,15 +1,11 @@
 import {
   Component,
-  ViewContainerRef,
-  ViewChild
+  ViewContainerRef
 } from '@angular/core';
 import {
   AppBaseComponent
 } from '../../index';
-import { MCUIService, PopupComponent, DrawerComponent, ScrollData } from 'mc-ui-angular';
-import {
-  HomeService
-} from '../home.service';
+import { MCUIService } from 'mc-ui-angular';
 
 @Component({
   selector: 'mc-example',
