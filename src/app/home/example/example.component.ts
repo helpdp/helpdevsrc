@@ -23,6 +23,16 @@ export class ExampleComponent extends AppBaseComponent {
     id: '../../../assets/mp3/TheStateOfJavascriptIn2019.mp3',
     name: 'The State of Javascript in 2019',
     date: '12/08/2019'
+  },
+  {
+    id: '../../../assets/mp3/BehavioralInterviewStar.mp3',
+    name: 'Behavioral Interview STAR',
+    date: '12/18/2019'
+  },
+  {
+    id: '../../../assets/mp3/BigO.mp3',
+    name: 'Big O',
+    date: '01/04/2020'
   }];
 
   constructor(
