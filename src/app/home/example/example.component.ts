@@ -33,7 +33,12 @@ export class ExampleComponent extends AppBaseComponent {
     id: '../../../assets/mp3/BigO.mp3',
     name: 'Big O',
     date: '01/04/2020'
-  }];
+    },
+    {
+      id: '../../../assets/mp3/EventLoopAndWebWorkers.mp3',
+      name: 'Javascript Event loop and Web Workers',
+      date: '02/26/2020'
+    }];
 
   constructor(
     protected er: ViewContainerRef,
