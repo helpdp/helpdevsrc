@@ -37,7 +37,12 @@ export class ExampleComponent extends AppBaseComponent {
     {
       id: '../../../assets/mp3/EventLoopAndWebWorkers.mp3',
       name: 'Javascript Event loop and Web Workers',
-      date: '02/26/2020'
+      date: '01/26/2020'
+    },
+    {
+      id: '../../../assets/mp3/CSS_Specificity.mp3',
+      name: 'CSS Specificity',
+      date: '02/02/2020'
     }];
 
   constructor(
