@@ -43,7 +43,12 @@ export class ExampleComponent extends AppBaseComponent {
       id: '../../../assets/mp3/CSS_Specificity.mp3',
       name: 'CSS Specificity',
       date: '02/02/2020'
-    }];
+    },
+    {
+      id: '../../../assets/mp3/MachineLearningAlgorithms.mp3',
+      name: 'Machine Learning Algorithms Overview',
+      date: '02/10/2020'
+    }].reverse();
 
   constructor(
     protected er: ViewContainerRef,
