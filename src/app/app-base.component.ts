@@ -1,15 +1,10 @@
-import {
-  ViewContainerRef,
-  Input,
-  OnInit,
-  OnDestroy,
-  AfterViewInit
-} from '@angular/core';
+import { ViewContainerRef, Input, OnInit, OnDestroy, AfterViewInit, Directive } from '@angular/core';
 import {
   Subscription
 } from 'rxjs';
 import { MCUIService } from 'mc-ui-angular';
 
+@Directive()
 export class AppBaseComponent implements OnInit, OnDestroy, AfterViewInit {
 
   el: HTMLElement;
