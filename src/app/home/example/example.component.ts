@@ -48,6 +48,11 @@ export class ExampleComponent extends AppBaseComponent {
       id: '../../../assets/mp3/MachineLearningAlgorithms.mp3',
       name: 'Machine Learning Algorithms Overview',
       date: '02/10/2020'
+    },
+    {
+      id: '../../../assets/mp3/CompositionVsInheritance.mp3',
+      name: 'Composition vs Inheritance',
+      date: '03/02/2020'
     }].reverse();
 
   constructor(
